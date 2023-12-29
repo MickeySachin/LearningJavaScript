@@ -1,0 +1,102 @@
+
+body{
+    margin: 0pc;
+    padding: 0pc;
+}
+
+.header{
+    inset: 0px;
+    display: block;
+    background-color: rgb(217, 251, 251);
+    padding: 0.4pc 0pc 1.1pc 0.6pc;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif, sans-serif;
+    color: #4d5157;
+    width: auto;
+}
+
+.headerText{
+    padding-left: 3pc;
+}
+.headerText:hover{
+    text-decoration:underline;
+    text-decoration-color:darkcyan;
+
+}
+
+nav{
+    display: flex;
+    float: right;
+}
+table{
+    font-weight: 580;
+    margin-top: -1.9pc;
+    width: 49pc;
+    padding-right: -34px;
+    margin-right: 0.4pc;
+    border-radius: 1.2pc;
+    text-align: center;
+    
+}
+a:link{
+    color:#4d5157;
+    text-decoration: none;
+    padding-left: 1pc;
+    font-size: 21px;
+}
+td:hover{
+    text-align: center;
+    border-radius: 1.2pc;
+    color:rgb(28, 142, 142);
+    background-color:rgba(222, 90, 90, 0.577);
+}
+
+main{
+    inset: 0pc;
+    margin-top: -0.0000001pc;
+    padding-bottom: 31pc;
+    padding-left: 1pc;
+    padding-top: 1pc;
+    width: auto;
+    background-color: rgba(250, 128, 114, 0.163);
+}
+
+.sec1{
+    padding-left: 2pc;
+    padding-right: 9pc;
+    padding-bottom: 4pc;
+    padding-top: 2pc;
+    border: 2px solid rgba(0, 0, 0, 0.373);
+    float: left;
+    height: 100%;
+    border-radius: 9px;
+    margin-top: 2pc;
+}
+
+aside{
+    margin-top: -0.9992pc;
+    background-color: beige;
+    float: right;
+    height: 31.99pc;
+    width: 16pc;
+}
+
+.asideSec{
+    border: 2px solid rgba(0, 0, 0, 0.373);
+    /* display: flexbox; */
+    float: right;
+    width: 15pc;
+    border: 2px solid rgba(0, 0, 0, 0.373);
+    margin-top: 3pc;
+    padding-bottom: 3.5pc;
+    border-radius: 9px;
+    text-align: center;
+
+}
+
+footer{
+    background-color: rgba(70, 131, 180, 0.232);
+    padding-left: 1pc;
+    padding-top: 0.2pc;
+    padding-bottom: 1pc;
+    margin-top: -1.111pc;
+}
